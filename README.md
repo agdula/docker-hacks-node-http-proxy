@@ -32,10 +32,10 @@ somewhere else, I know. It's just a POC
 
 so instead of seeing 
 
-![alt text](readme/img/img_1.png)
+![alt text](docs/img/img_1.png)
 
 you'll see 
 
-![alt text](readme/img/img_2.png)
+![alt text](docs/img/img_2.png)
 
 
