@@ -1,0 +1,12 @@
+
+services:
+  proxy-sevrver:
+    build: ./proxy
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+      - HOST=self-signed.badssl.com
+    ports:
+      - "8000:8000"
+    command: "node app.js"
